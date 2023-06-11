@@ -1,7 +1,7 @@
 # AppointmentBookingSystem
-    This is an Appointment Booking System application built using Express.js and Firebase. It allows users to register, login, and book appointments. The application provides RESTful API endpoints for managing appointments and ensures that only authenticated users can access them.
+This is an Appointment Booking System application built using Express.js and Firebase. It allows users to register, login, and book appointments. The application provides RESTful API endpoints for managing appointments and ensures that only authenticated users can access them.
 
-**Features**
+#Features
     - User registration and login using Firebase Authentication.
     - JWT token-based authorization for API endpoints.
     - CRUD operations on appointments:
@@ -11,7 +11,7 @@
     - Update a specific appointment by its ID.
     - Delete a specific appointment by its ID.
 
-**Prerequisites**
+#Prerequisites
     Before running the application, make sure you have the following installed:
 
      - Node.js
@@ -19,28 +19,28 @@
      - Firebase account and project credentials
      - Postman (or any other API testing tool)
 
-**Getting Started**
-    **1. Clone the repository:**
+#Getting Started
+    #1. Clone the repository:
         - git clone <repository-url>
     
-    **2. Install the dependencies**
+    #2. Install the dependencies
         - cd appointment-booking-system
         - npm install
     
-    **3. Set up Firebase:**
+    #3. Set up Firebase:
         - Create a Firebase project.
         - Generate the Firebase configuration object and credentials.
         - Set the Firebase configuration values in the .env file (see the .env.example file for reference).
 
-    **4. Start the application:**
+    #4. Start the application:
         - npm start
         - The application will start running on http://localhost:<env Port Number>.
 
-    **5. Testing the API endpoints:**
+    #5. Testing the API endpoints:
         - Use Postman or any other API testing tool to send HTTP requests to the provided endpoints.
         - Make sure to include the appropriate headers for authentication (Authorization: Bearer <token>).
   
-**API Endpoints**
+#API Endpoints
     - POST /register: Register a new user.  
     - POST /login: Authenticate the user and obtain a JWT token.
     - POST /appointments: Create a new appointment.
@@ -49,7 +49,7 @@
     - PUT /appointments/:id: Update a specific appointment by its ID.
     - DELETE /appointments/:id: Delete a specific appointment by its ID.
   
-**Technologies Used**
+#Technologies Used
     - Express.js: Fast, unopinionated, minimalist web framework for Node.js.
     - Firebase: A comprehensive suite of cloud-based tools and services for application development.
     - Firebase Authentication: Securely authenticate users with email and password.
@@ -57,9 +57,9 @@
     - JSON Web Tokens (JWT): Token-based authentication and authorization mechanism.
     - Postman: API testing and development tool.
 
-**Contributing**
+#Contributing
     - Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
 
 
-**Acknowledgments**
+#Acknowledgments
     - Thanks to the developers of Express.js, Firebase, and other related libraries and tools for making this project possible.
